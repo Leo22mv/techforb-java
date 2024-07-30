@@ -23,8 +23,8 @@ import challenge.techforb_java.service.JwtService;
 
 @RestController
 @RequestMapping("/user")
-// @CrossOrigin(origins = "https://techforb-challenge.web.app")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://techforb-challenge.web.app")
+// @CrossOrigin(origins = "http://localhost:4200")
 public class UserController {
     
     @Autowired
