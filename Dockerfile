@@ -1,4 +1,3 @@
-FROM eclipse-temurin:17-jdk-focal
 FROM openjdk:17-jdk-slim
 WORKDIR /app
 COPY Challenge.jar app.jar
